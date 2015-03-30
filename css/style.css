@@ -1,0 +1,81 @@
+html, body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #4D4D4D;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a,
+a:visited {
+  color: #67809F;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #4F628E;
+  text-decoration: none;
+}
+
+/*PAGE CSS BEGINS*/
+
+.social-media {
+  position: fixed;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+  width: 50px;
+  padding: 10px 0;
+  height: auto;
+  background-color: #DBDBDB;
+}
+
+.social-icon {
+  position: relative;
+  margin: 10px 0;
+  font-size: 1.6em;
+  width: 100%;
+  text-align: center;
+}
+
+.main-container {
+  width: 60vw;
+  margin: 4em auto;
+}
+
+header {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 0.5em;
+  width: 100%;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.name {
+  margin: 0;
+  font-weight: 400;
+  font-size: 2.2em;
+  color: #34495E;
+}
+
+.info {
+  font-size: 1.1em;
+  width: 65%;
+}
+
+section {
+  margin: 4em 0;
+}
+
+footer {
+  border-top: 1px solid #DBDBDB;
+}
