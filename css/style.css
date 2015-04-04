@@ -1,3 +1,5 @@
+@import url('./css/phone.css');
+
 html, body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -30,20 +32,6 @@ a:hover {
 
 /*PAGE CSS BEGINS*/
 
-/*.social-media {
-  position: fixed;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  top: 50%;
-  right: 0;
-  width: 50px;
-  padding: 10px 0;
-  height: auto;
-}*/
-
 .main-container {
   width: 60vw;
   margin: 4em auto;
@@ -57,13 +45,6 @@ header {
   letter-spacing: 0.5px;
   border-bottom: 1px solid #DBDBDB;
 }
-
-/*.social-media {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  margin-bottom: 1em;
-}*/
 
 .social-media {
   margin: 0;
@@ -104,4 +85,39 @@ section {
 footer {
   border-top: 1px solid #DBDBDB;
   font-size: 1.1em;
+}
+
+/*MEDIUM VIEWPORT*/
+
+@media all and (min-width: 825px) and (max-width: 1100px) {
+  .main-container {
+    width: 65vw;
+  }
+
+  .info-container {
+    width: 75%;
+  }
+}
+
+@media all and (min-width: 451px) and (max-width: 824px) {
+  .info-container {
+    width: 95%;
+  }
+}
+
+/*MOBILE VIEWPORT*/
+
+@media all and (max-width: 450px) {
+
+  .main-container {
+    width: 70vw;
+  }
+
+  .info-container {
+    width: 100%;
+    font-size: 0.95em;
+  }
+  .social-media {
+    text-align: center;
+  }
 }
